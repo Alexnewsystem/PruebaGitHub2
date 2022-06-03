@@ -2,6 +2,7 @@ package com.example.pruebagithub;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     private  void  cargarResultados(){
         Toast.makeText(this, "resultados cargando", Toast.LENGTH_SHORT).show();
+        Intent i= new Intent(this, MainActivity2.class);
     }
 
     private void recibirDatos(){

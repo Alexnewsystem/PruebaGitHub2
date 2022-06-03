@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
     private  void  cargarResultados(){
         Toast.makeText(this, "resultados cargando", Toast.LENGTH_SHORT).show();
     }
+
+    private void recibirDatos(){
+        Toast.makeText(this, "recibiendo datos", Toast.LENGTH_SHORT).show();
+    }
 }

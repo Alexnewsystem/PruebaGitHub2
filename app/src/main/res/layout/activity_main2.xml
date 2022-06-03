@@ -6,14 +6,21 @@
     android:layout_height="match_parent"
     android:background="#02336A"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".MainActivity2">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:src="@drawable/ic_photo">
 
     </ImageView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enviar">
+
+    </Button>
 
 
 </LinearLayout>
